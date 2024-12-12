@@ -444,7 +444,6 @@ select {
     }
 
     .hero .hero__pictrue {
-        justify-self: start;
         transform: translateY(-4%) translatex(-5%);
         z-index: -1;
     }
