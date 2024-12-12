@@ -19,7 +19,7 @@
 
   <!-- start header + navigation -->
   <header class="primary-header">
-    <div class="container">
+    <div class="grid-container">
       <nav class="navigation">
         <img src="assets/logo-dark.svg" alt="">
         <a class="btn btn--black" href="#">Get Started</a>
@@ -29,26 +29,28 @@
   <!-- end header + navigation -->
 
   <!-- container -->
-  <main class="container">
+  <main class="grid-container">
     <!-- start hero section -->
-    <article class="hero">
-
-      <!-- start description -->
-      <div class="hero__description">
-        <h1 class="hero__title">Maximize skill, minimize budget</h1>
-        <p class="hero__intro">Our modern courses across a range of in-demand skills will give you the knowledge you need to live the life you want.</p>
-        <a class="btn btn--orange" href="#">Get Started</a>
-      </div>
-      <!-- end description -->
-
-      <!-- start description -->
-      <picture class="hero__pictrue">
-        <source srcset = "assets/image-hero-desktop.png" media="(min-width: 950px)">
-        <source srcset = "assets/image-hero-tablet.png" media="(min-width: 700px)">
-        <img src="assets/image-hero-mobile@2x.png" alt="">
-      </picture>
-      <!-- end description -->
-
+    <article class="hero-wrapper">
+      <section class="hero">
+  
+        <!-- start description -->
+        <div class="hero__description">
+          <h1 class="hero__title">Maximize skill, minimize budget</h1>
+          <p class="hero__intro">Our modern courses across a range of in-demand skills will give you the knowledge you need to live the life you want.</p>
+          <a class="btn btn--orange" href="#">Get Started</a>
+        </div>
+        <!-- end description -->
+  
+        <!-- start description -->
+        <picture class="hero__pictrue">
+          <source srcset = "assets/image-hero-desktop@2x.png" media="(min-width: 1024px)">
+          <source srcset = "assets/image-hero-tablet@2x.png" media="(min-width: 700px)">
+          <img src="assets/image-hero-mobile@2x.png" alt="">
+        </picture>
+        <!-- end description -->
+  
+      </section>
     </article>
     <!-- end hero section -->
     
@@ -109,7 +111,7 @@
 
   <!-- start footer + navigation -->
   <footer class="primary-footer">
-    <div class="container">
+    <div class="grid-container">
       <nav class="navigation">
         <img src="assets/logo-light.svg" alt="">
         <a class="btn btn--purple" href="#">Get Started</a>
