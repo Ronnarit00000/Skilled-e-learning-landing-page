@@ -129,8 +129,8 @@ select {
     text-decoration: none;
     display: block;
     border-radius: 3.5rem;
-    padding-block:  var(--btn-padding-block ,1rem);
-    padding-inline: var(--btn-padding-inline ,2rem);
+    padding-block:  var(--btn-padding-block , 1rem);
+    padding-inline: var(--btn-padding-inline, 2.4rem);
     font-size:      var(--fs-400);
     font-weight:    var(--fw-bold);
     background:     var(--bg-btn);
@@ -223,7 +223,7 @@ select {
 .hero .hero__title {
     font-size:   var(--fs-preset-1);
     font-weight: var(--fw-extrabold);
-    color:       var(--clr-blue-900);
+    color:       hsl(var(--clr-blue-900));
 }
 
 .hero .hero__intro {
@@ -246,13 +246,11 @@ select {
     margin-block-start: 1.5rem;
 }
 
-.hero  .hero__description .hero__intro + a {
+.hero .hero__intro + a {
     margin-block-start: 2.5rem;
+    margin-block-end:     3rem;
 }
 
-.hero  .hero__description + .hero__pictrue {
-    margin-block-start: 3rem;
-}
 
 /*------------------------------------------------------*/
 /*                    course section                    */
@@ -333,8 +331,8 @@ select {
 }
 
 .primary-footer img {
-    width:    5rem;
-    height:1.25rem;
+    width: 110px;
+    height: 28px;
 }
 
 @media (min-width: 700px) {
@@ -379,8 +377,8 @@ select {
     .hero .hero__pictrue img {
         max-width:  1390px;
         max-height: 1440px;
-        scale:1.7;
-        transform: translateY(-16%) translateX(15%);
+        scale: 1.7;
+        transform: translateY(-9%) translateX(15%);
         object-fit: scale-down;
     } 
 
@@ -393,6 +391,12 @@ select {
         grid-template-columns: 1fr 1fr;
         column-gap: 1.5rem;
         row-gap:      4rem;
+    }
+
+    .course .course__intro {
+        padding-inline: 2rem;
+        padding-block-start: 4rem;
+        padding-block-end: 2.5rem;
     }
 
     .course .card {
@@ -444,7 +448,7 @@ select {
     }
 
     .hero .hero__pictrue {
-        transform: translateY(-4%) translatex(-5%);
+        transform: translateY(-7%) translatex(-5%);
         z-index: -1;
     }
     
