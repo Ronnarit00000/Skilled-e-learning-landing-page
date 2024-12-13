@@ -247,13 +247,9 @@ select {
 }
 
 .hero  .hero__description a {
-    padding-block-start: 2.5rem;
-    padding-block-end:     3rem;
+    margin-block-start: 2.5rem;
+    margin-block-end:     3rem;
 }
-
-/* .hero  .hero__description + .hero__pictrue {
-    margin-block-start: 3rem;
-} */
 
 /*------------------------------------------------------*/
 /*                    course section                    */
