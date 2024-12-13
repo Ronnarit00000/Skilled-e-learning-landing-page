@@ -246,11 +246,13 @@ select {
     margin-block-start: 1.5rem;
 }
 
-.hero .hero__intro + a {
+.hero  .hero__description .hero__intro + a {
     margin-block-start: 2.5rem;
-    margin-block-end:     3rem;
 }
 
+.hero  .hero__description + .hero__pictrue {
+    margin-block-start: 3rem;
+}
 
 /*------------------------------------------------------*/
 /*                    course section                    */
